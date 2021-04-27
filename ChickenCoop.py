@@ -1,3 +1,4 @@
+#this can only be run on the Rpi
 import RPi.GPIO as GPIO
 import dht11
 import time
