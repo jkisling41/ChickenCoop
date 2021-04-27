@@ -3,7 +3,7 @@
 # your Gmail account 
 import smtplib
     
-def sendEmail(sendTo)
+def sendEmail(sendTo,appPass)
     # creates SMTP session
     s = smtplib.SMTP('smtp.gmail.com', 587)
     
@@ -11,7 +11,7 @@ def sendEmail(sendTo)
     s.starttls()
     
     # Authentication
-    s.login("jkisling41@gmail.com", "abmqqfwyvgrzmaex")
+    s.login("jkisling41@gmail.com", appPass)
     
     # message to be sent
     message = "Message_you_need_to_send"
