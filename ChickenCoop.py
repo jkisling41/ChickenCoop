@@ -9,8 +9,9 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-relay1 = 16 
-relay2 = 20
+relay1 = 20
+relay2 = 16 
+
 #setting relay 1 and 2 as output pins
 GPIO.setup(relay1, GPIO.OUT)
 GPIO.setup(relay2, GPIO.OUT)
